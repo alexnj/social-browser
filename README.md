@@ -13,8 +13,8 @@ A node module providing utility methods to detect which social browser is a clie
 
 ```js
   var socialbrowser = require('social-browser');
-
-  if (socialbrowser.isFacebook()) {
+  var browser = socialbrowser.detect();
+  if (browser.major === "facebook") {
     console.log('User is using Facebook client browser.');
   }
 
