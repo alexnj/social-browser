@@ -6,16 +6,16 @@ A node module providing utility methods to detect which social browser is a clie
 ## Installation
 
 ```shell
-  npm install social-browser --save
+npm install social-browser --save
 ```
 
 ## Usage
 
 ```js
-  var browser = require('social-browser').detect();
-  if (browser.major === "facebook") {
-      console.log('User is using Facebook client browser.');
-  }
+var browser = require('social-browser').detect();
+if (browser.major === "facebook") {
+  console.log('User is using Facebook client browser.');
+}
 
 ```
 ## Detectable browsers
@@ -28,7 +28,7 @@ A node module providing utility methods to detect which social browser is a clie
 ## Tests
 
 ```shell
-   npm test
+npm test
 ```
 
 ## Contributing
