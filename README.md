@@ -12,13 +12,15 @@ A node module providing utility methods to detect which social browser is a clie
 ## Usage
 
 ```js
-  var socialbrowser = require('social-browser');
-  var browser = socialbrowser.detect();
+  var browser = require('social-browser').detect();
   if (browser.major === "facebook") {
-    console.log('User is using Facebook client browser.');
+      console.log('User is using Facebook client browser.');
   }
 
 ```
+## Detectable browsers
+
+TODO: Fill this up
 
 ## Tests
 
@@ -33,4 +35,4 @@ Add unit tests for any new or changed functionality. Lint and test your code.
 
 ## Release History
 
-* 0.0.1 Initial release
+* 0.1.0 Initial release, with support for Facebook/iOS and Twitter/iOS.
