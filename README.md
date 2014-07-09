@@ -16,7 +16,6 @@ var browser = require('social-browser').detect();
 if (browser.major === "facebook") {
   console.log('User is using Facebook client browser.');
 }
-
 ```
 ## Detectable browsers
 
