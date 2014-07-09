@@ -20,7 +20,10 @@ A node module providing utility methods to detect which social browser is a clie
 ```
 ## Detectable browsers
 
-TODO: Fill this up
+|Browser |browser.major |browser.platform|
+|--------|------|--------|
+|Twitter for iOS|twitter|ios|
+|Facebook for iOS|facebook|ios|
 
 ## Tests
 
